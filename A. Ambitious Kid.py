@@ -1,0 +1,5 @@
+t = int(input())
+f = list(map(int, input().split()))
+fabs = list(map(abs, f))
+minimum = min(fabs)
+print(minimum)  
